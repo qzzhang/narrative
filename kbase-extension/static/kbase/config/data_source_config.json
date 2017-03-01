@@ -1,11 +1,17 @@
 {
     "ci": {
         "publicData": {
-            "GenomeFeatures_ci": {
+            "reference_genomes": {
                 "name": "Reference Genomes",
                 "type": "KBaseGenomes.Genome",
                 "ws": "ReferenceDataManager",
                 "search": true
+            },
+            "legacy_genomes": {
+                "name": "Legacy Genomes",
+                "type": "KBaseGenomes.Genome",
+                "ws": "RefSeq_Genomes",
+                "search": false
             },
             "plant_genomes": {
                 "name": "Plant Genomes",
